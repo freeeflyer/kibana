@@ -2,7 +2,7 @@ FROM openjdk:8u111-jre
 
 MAINTAINER Nicolas Zagulajew (freeeflyer) <docker.com@xoop.org>
 
-ENV KIBANA_VERSION 5.0.0
+ENV KIBANA_VERSION 5.3.0
 ENV KIBANA_HOME /opt/kibana-$KIBANA_VERSION-linux-x86_64
 ENV ES_URL http://es:9200
 
